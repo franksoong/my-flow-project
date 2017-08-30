@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel src/ -d out/",
     "prepublish": "flow && npm run build",
+    "flow": "flow",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "soong",
